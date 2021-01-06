@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form test</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <form>
+        <input type="text" name="id" placeholder="아이디" />
+    </form>
+    <form>
+        <input type="text" name="password" placeholder="비밀번호" />
+    </form>
+    <form>
+        <input type="button" value="전송" onclick="alert('Hello World')"/>
+    </form>
+    <form>
+        <input type="submit" value="제출" onclick="alert('Submit Complete')"/>
+    </form>
+    <form>
+        <input type="reset" value="초기화" onclick="alert('Reset Complete')"/>
+    </form>
+
+    <form>
+        <input type="checkbox" name="color" value="red" /> red<br />
+        <input type="checkbox" name="color" value="blue" checked /> blue<br />
+        <input type="checkbox" name="color" value="black" checked /> black<br />
+    </form>
+    <form>
+        <input type="radio" name="color" value="red" /> 빨간색 <br />
+        <input type="radio" name="color" value="black" /> 검은색<br />
+    </form>
+    <form>
+      <p>textarea :
+        <textarea cols="50" rows="3" placeholder="default">입력하세요.</textarea>
+      </p>
+    </form>
+    <form>
+        <select name="color">
+            <option value="서버에 전송될 값">red</option>
+            <option value="blue">blue</option>
+            <option value="black">black</option>
+            <option value="orange">orange</option>
+        </select>
+    </form>
+</body>
+</html>
