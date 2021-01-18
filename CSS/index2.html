@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        span {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            /* width, height, margin-top, margin-bottom
+            프로퍼티를 지정할 수 없다*/
+            /* width: 200px; */
+            /* margin: 10px */
+            /* 상,하 여백은 line-height로 지정한다. */
+            /* line-height: 50px; */
+        }
+        .visible { visibility: visible; }
+        .hidden { visibility: hidden; }
+
+        table, td { border: 1px solid black; }
+        .collapse { visibility: collapse; }
+        /* .collapse { visibility: hidden; } */
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>My <span>IMPORTANT</span> Heading</h1>
+    <span>Inline</span>
+    <span>Inline</span><span>Inline</span>
+
+    <h1 class="visible">visibility: visible</h1>
+    <h1 class="hidden">visibility: hidden</h1>
+    <h1 style="display:none">display: none</h1>
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr class="collapse">
+            <td>C</td>
+            <td>D</td>
+        </tr>
+    </table>
+</body>
+</html>

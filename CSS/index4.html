@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .font-size-40 { font-size: 40px; }
+        .font-size-2x { font-size: 2.0em; }
+        .font-size-150ps { font-size: 150%; }
+        .font-size-large { font-size: large; }
+        .serif {
+            font-family: "Times New Roman", Times, serif;
+        }
+        .sans-serif {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .monospace {
+            font-family: "Courier New", Courier, monospace;
+        }
+        p { font-size: 2.0em; }
+
+        /*
+            font-style
+            normal / italic / oblique
+        */
+        .italic {
+            font-style: italic;
+        }
+        /*
+            font-weight
+            100 ~ 900 or normal / bold / lighter / bolder
+        */
+        .light {
+            font-weight: lighter;
+        }
+        .thick {
+            font-weight: bold;
+        }
+        .thicker {
+            font-weight: 900;
+        }
+        .small {
+            line-height: 70%;   /* 16px * 70% */
+        }
+        .big {
+            line-height: 1.2;   /* 16px * 1.2 */
+        }
+        .lh-3x {
+            line-height: 3.0;   /* 16px * 3 */
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <p>default font size: 16px</p>
+    <p class='font-size-40'>font-size: 40px</p>
+    <p class='font-size-2x'>font-size: 2.0em</p>
+    <p class='font-size-150ps'>font-size: 150%</p>
+    <p class='font-size-large'>font-size: large</p> </br>
+    <hr> </br>
+    
+    <h1>font-family</h1>
+    <p class='serif'>Times New Roman font.</p>
+    <p class='sans-serif'>Arial font.</p>
+    <p class='monospace'>Courier New font.</p> </br>
+    <hr> </br>
+
+    <p>normal style.</p>
+    <p class="italic">font-style: italic</p>
+    <p class="light">font-weight: lighter</p>
+    <p class="thick">font-weight: bold</p>
+    <p class="thicker">font-weight: 900</p> </br>
+    <hr> </br>
+
+    <p>
+        dafualt line-height.</br>
+        default line-height.</br>
+        대부분 브라우저의 default line height는 약 110% ~ 120%.</br>
+    </p>
+
+    <p class="small">
+        lint-height: 70% </br>
+        line-height: 70% </br>
+    </p>
+
+    <p class="big">
+        lint-height: 1.2 </br>
+        line-height: 1.2 </br>
+    </p>
+
+    <p class="lh-3x">
+        lint-height: 3.0 </br>
+        line-height: 3.0 </br>
+    </p>
+</body>
+</html>
